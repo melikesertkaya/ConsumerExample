@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "Farmasix.Order.Infrastructure.Consumer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "CONF_URL": "http://10.0.0.26:1130",
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "COUNTRY_CODE": "US"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "CONF_URL": "http://10.0.0.26:1130",
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "COUNTRY_CODE": "US"
+      }
+    }
+  }
+}
